@@ -350,6 +350,8 @@ if __name__=='__main__':
             window.word_wrap=True
             window.menus["Format"].entryconfig("Word Wrap",label="Word Wrap     \U00002705")                   
             window.menus["View"].entryconfig("Status Bar",state="disabled",accelerator="")
+            window.status_bar.pack_forget()
+            window.statusbol=False
 
     #Help menu function
     def help():
