@@ -2,7 +2,7 @@
 
 A simple Writing Pad application built using Python and Tkinter.
 
-Current Version: 'v1.0.0'
+Current Version: 'v1.0.1'
 
 ## Features
 - Create new files
